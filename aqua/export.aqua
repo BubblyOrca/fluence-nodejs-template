@@ -1,3 +1,4 @@
 module Export
 import getRelayTimestamp from "hello-world"
-export getRelayTimestamp
+import MessagingService, advertiseMyself, sendEveryone, sendMyself from "messaging"
+export getRelayTimestamp, MessagingService, advertiseMyself, sendEveryone, sendMyself
